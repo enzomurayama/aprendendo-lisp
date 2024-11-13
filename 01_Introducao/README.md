@@ -1,7 +1,7 @@
-﻿# Aprendendo o básico
+﻿# 📖 Aprendendo o básico
 Vamos começar dando uma olhada nos elementos básicos da linguagem.
 
-## Estrutura do programa
+## 1. Estrutura do programa
 Expressões LISP são chamadas de expressões simbólicas ou S-expressões.  São compostas por três objetos válidos: **átomos**, **listas** e **strings**.
 
 Um **átomo** é um número ou sequência de caracteres. Inclui caracteres especiais.
@@ -35,7 +35,7 @@ Uma **string** é um grupo de caracteres entre aspas duplas.
     
 <br> 
 
-## Notação prefixa
+## 2. Notação prefixa
 Agora, entendido os tipos que podemos manipular, precisamos entender que LISP utiliza **notação prefixa**, ou seja, operadores são escritos antes de seus operandos. Por exemplo, a expressão *a * ( b + c )* vai ser escrita como:
 ```
     (* a (+ b c) )
@@ -43,7 +43,7 @@ Agora, entendido os tipos que podemos manipular, precisamos entender que LISP ut
 
 <br>
 
-## Variáveis
+## 3. Variáveis
 Podemos utilizar variáveis globais e locais.
 
 Variáveis **globais** têm valores permanentes em todo o sistema LISP e permanecem em vigor até que um novo valor seja especificado. São declaradas utilizando ***defvar*** e caso já existam, não altera o valor atual.
@@ -62,7 +62,7 @@ Nesse caso, quando *let* é executado, a cada variável é atribuído o respecti
 
 <br>
 
-## Atribuição de valores
+## 4. Atribuição de valores
 Como não existe declaração de tipos, é possível especificar um valor diretamente para as variáveis (globais e locais), independente se já foi definida ou não. Para isso, utilizamos ***setq***. Vale notar que a variável não precisa existir previamente, ela será criada automaticamente se ainda não existir.
 ```
     (setq <var_name> <value>)
@@ -70,7 +70,7 @@ Como não existe declaração de tipos, é possível especificar um valor direta
 
 <br>
 
-## Constantes
+## 5. Constantes
 No LISP, constantes são variáveis ​​que nunca mudam seus valores durante a execução do programa. As constantes são declaradas usando ***defconstant***.
 ```
     (defconstant <const_name> <value>)
@@ -84,7 +84,7 @@ Retorna T em caso positivo, NIL em caso negativo.
 
 <br> 
 
-## Entrada e saída de dados
+## 6. Entrada e saída de dados
 Em Lisp, os métodos de entrada (input) e saída (output) são variados e permitem ler dados do usuário e exibir resultados. Aqui estão alguns dos métodos que estaremos utilizando para manipulação de I/O:
 
 ### Entrada (*input*)
@@ -154,7 +154,9 @@ Em Lisp, os métodos de entrada (input) e saída (output) são variados e permit
 
 Lembrando que estes são apenas alguns métodos de entrada e saída, existem muitos outros, mas que não estaremos utilizando aqui.
 
-## Comentários
+<br>
+
+## 7. Comentários
 Em Lisp, você pode inserir comentários de algumas maneiras:
 
 **Comentário de Linha Única**
