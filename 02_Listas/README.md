@@ -129,6 +129,15 @@ Verifica se um elemento está presente na lista. Retorna a sublista que começa 
 ```
 <br>
 
+### [ subsetp ] Subconjunto
+
+Verifica se uma lista é um subconjunto de outra, ou seja, se todos os elementos da primeira lista estão presentes na segunda. É útil para comparar coleções.
+
+```
+(subsetp '<lista> '<lista>)
+```
+<br>
+
 ### [ reverse ] Reversão
 
 Inverte a ordem dos elementos de uma lista.
