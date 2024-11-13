@@ -1,6 +1,8 @@
 ﻿# 📖 Aprendendo o básico
 Vamos começar dando uma olhada nos elementos básicos da linguagem.
 
+<br>
+
 ## 1. Estrutura do programa
 Expressões LISP são chamadas de expressões simbólicas ou S-expressões.  São compostas por três objetos válidos: **átomos**, **listas** e **strings**.
 

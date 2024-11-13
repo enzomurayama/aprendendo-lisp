@@ -1,6 +1,8 @@
 # 📋 Listas
 Em Lisp, listas são um dos tipos de dados fundamentais e são frequentemente usadas para representar programas, dados e estruturas em geral. Elas são compostas por elementos que podem ser qualquer tipo de dado, como números, símbolos, ou outras listas. 
 
+<br>
+
 ## 1. Criando uma lista
 Podemos utilizar a chamada ***list*** para criar uma nova lista a partir de seus argumentos.
 
