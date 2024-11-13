@@ -19,7 +19,6 @@
 ;; Ex4. Crie uma nova lista '(0 1) e faça a concatenação com '(2 3 4 5).
 
 (setq new_list '(0 1))
-
 (format t "Exercício 4: ~A ~%" (append new_list '(2 3 4 5)))
 (terpri)
 
@@ -28,7 +27,6 @@
 
 (setq tam_antes (length '(0 1 2 3 2 4 4 5 2 2 3 2 5)))
 (setq tam_depois (length (remove 2 '(0 1 2 3 2 4 4 5 2 2 3 2 5))))
-
 (format t "Exercício 5 - Tamanho antes: ~A | Tamanho depois: ~A ~%" tam_antes tam_depois)
 (terpri)
 
@@ -48,6 +46,5 @@
 ;; Ex8. Usando apenas cons, crie a lista '(a b c d).
 
 (setq nova_lista (cons 'a (cons 'b (cons 'c (cons 'd nil)))))
-
 (format t "Exercício 8: ~A ~%" nova_lista)
 (terpri)

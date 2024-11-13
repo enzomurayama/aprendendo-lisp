@@ -1,7 +1,6 @@
 ;; Ex1. Calcule a hipotenusa de um triângulo com catetos de 3 e 4 
 
 (setq result (sqrt (+ (expt 3 2) (expt 4 2))) ) 
-
 (format t "Exercício 1: ~A ~%" result)
 (terpri)
 
