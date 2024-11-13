@@ -15,6 +15,7 @@
 (format t "Exercício 3 - Último elemento de '(apple banana cherry): ~A ~%" (last '(apple banana cherry)))
 (terpri)
 
+
 ;; Ex4. Crie uma nova lista '(0 1) e faça a concatenação com '(2 3 4 5).
 
 (setq new_list '(0 1))
