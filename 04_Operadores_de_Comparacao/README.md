@@ -63,7 +63,7 @@ Retorna o menor valor entre os números fornecidos.
 
 <br>
 
-Os seguintes, funcionam para mais tipos.
+Os seguintes funcionam para mais tipos.
 
 ### [ equal ] Igualdade
 
