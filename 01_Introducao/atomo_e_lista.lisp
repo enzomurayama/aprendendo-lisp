@@ -14,7 +14,7 @@
 (terpri)
 
 
-;; Crie uma lista chamada mixed-list que contenha um número, uma string, uma lista aninhada com duas strings e uma lista vazia.
+;; Ex3. Crie uma lista chamada mixed-list que contenha um número, uma string, uma lista aninhada com duas strings e uma lista vazia.
 
 (defvar mixed-list '(42 "Isso é uma string" ("texto1" "texto2") ()))
 

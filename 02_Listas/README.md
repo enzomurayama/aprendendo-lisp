@@ -85,7 +85,7 @@ Concatena duas ou mais listas.
 Remove todas as ocorrências de um elemento de uma lista.
 
 ```
-(remove '<lista1> '<lista2> ... '<listan>)
+(remove <element> '<lista1>)
 ```
 <br>
 
