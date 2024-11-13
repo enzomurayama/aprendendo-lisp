@@ -2,6 +2,8 @@
 Aqui está a listagem de alguns operadores aritméticos em LISP.
 Note que ainda existem outros que não estão nesta lista, mas que são menos utilizados.
 
+<br>
+
 ### [ + ] Soma
 
 Realiza a soma de dois ou mais valores numéricos.
