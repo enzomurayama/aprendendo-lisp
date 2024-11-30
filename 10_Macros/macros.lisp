@@ -36,6 +36,6 @@
 (defmacro concatenar (lista1 lista2)
   `(append ,lista1 ,lista2))
 
-(format t "Exercício 5 - Concatenando '(1 2)' e '(3 4)': ~A ~%" (concatenar '(1 2) '(3 4)))
-(format t "Exercício 5 - Concatenando '()' e '(5 6)': ~A ~%" (concatenar '() '(5 6)))
+(format t "Exercício 4 - Concatenando '(1 2)' e '(3 4)': ~A ~%" (concatenar '(1 2) '(3 4)))
+(format t "Exercício 4 - Concatenando '()' e '(5 6)': ~A ~%" (concatenar '() '(5 6)))
 (terpri)
