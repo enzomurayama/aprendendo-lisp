@@ -6,4 +6,12 @@ Macros são definidas usando a função especial **defmacro**. Aqui está um exe
 (defmacro macro-name (parameter-list))
     "Optional documentation string."
     body-form
+
+(defmacro macro-name (condicao &body corpo)
+  `(if ,condicao
+       (progn ,@corpo)))
 ```
+
+**quasequote (`):** Permite construir expressões sem avaliá-las imediatamente. <br>
+**,:** Avalia uma expressão dentro de um quasequote. <br>
+**,@:** Desestrutura e insere os elementos de uma lista dentro de um quasequote.
